@@ -8,4 +8,18 @@ body {
 
 .bacon {
   background-color: black;
+  border-radius: 100%;
+}
+
+/***********************ID SELECTORS********************************/
+#heading {
+  color: beige;
+}
+
+/** Id is unique **/
+
+/**PSEUDOCLASS*********/
+
+img:hover {
+  background-color: gold;
 }
