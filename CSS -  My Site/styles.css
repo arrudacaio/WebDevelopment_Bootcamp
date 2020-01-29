@@ -55,30 +55,37 @@ a {
   bottom: 300px;
 }
 
+.profile-resume {
+  margin-bottom: 38px;
+}
+
 .img-profile {
-  max-width: 350px;
+  margin-top: 30px;
+  max-width: 250px;
   width: auto;
-  border-radius: 100%;
+  border-radius: 200%;
 }
 
-.java-logo {
-  border-radius: 50px;
-  max-width: 200px;
-  max-height: 150px;
-  width: auto;
-  height: auto;
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.java-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
-.js-logo {
-  max-width: 200px;
-  max-height: 150px;
-  width: auto;
-  height: auto;
+.js-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
-.python-logo {
-  max-width: 200px;
-  max-height: 150px;
-  width: auto;
-  height: auto;
+.python-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
