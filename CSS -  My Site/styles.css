@@ -26,6 +26,8 @@ h3 {
 
 a {
   color: #11999e;
+  text-decoration: none;
+  margin: 20px;
 }
 
 .pro {
@@ -37,6 +39,10 @@ a {
   padding-top: 100px;
 }
 
+.copyright {
+  font-size: 0.75rem;
+}
+
 .middle-container {
 }
 
@@ -44,10 +50,6 @@ a {
   background-color: #7b9e9e;
   padding-bottom: 10px;
   padding: 20px;
-}
-
-.contact-me {
-  line-height: 2;
 }
 
 .top-cloud {
@@ -63,6 +65,7 @@ a {
 }
 
 .footer-link {
+  word-spacing: 100px;
 }
 
 .profile-resume {
@@ -103,4 +106,16 @@ a {
 .copyright {
   font-size: 15px;
   color: #eaf6f6;
+}
+
+.btn {
+  background-image: linear-gradient(to bottom right, #11999e, darkcyan);
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 4;
 }
